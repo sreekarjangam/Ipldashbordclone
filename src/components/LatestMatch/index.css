@@ -1,0 +1,58 @@
+.latest-match-card {
+  width: 100%;
+  max-width: 900px;
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.match-details-left {
+  flex: 2;
+}
+
+.team {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.venue,
+.result {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #e5e7eb;
+}
+
+.latest-match-logo {
+  flex: 1;
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  margin: 0 16px;
+}
+
+.match-details-right {
+  flex: 1.3;
+}
+
+.label {
+  font-size: 12px;
+  color: #9ca3af;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.value {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
